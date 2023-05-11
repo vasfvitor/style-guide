@@ -1,0 +1,9 @@
+@use 'styles';
+
+div.card {
+    box-sizing: border-box;
+
+    background: styles.$card-background;
+    border-radius: 16px;
+	padding: 10px 20px;
+}

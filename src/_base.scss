@@ -1,0 +1,34 @@
+@use 'styles';
+
+body {
+	margin: 0;
+	padding: 0;
+
+    background: styles.$base-background;
+    font-family: styles.$base-font-family;
+    color: styles.$base-font-color;
+}
+
+a, a:visited {
+	color: styles.$base-link-color;
+}
+
+a:active, a:hover {
+	color: styles.$base-link-hover-color;
+}
+
+div.hero {
+	background-image: styles.$base-hero-image;
+	min-height: styles.$base-hero-min-height;
+	max-height: styles.$base-hero-max-height;
+	padding: 100px 0 0;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+div.container {
+	max-width: styles.$base-container-max-width;
+	margin-left: auto;
+	margin-right: auto;
+}

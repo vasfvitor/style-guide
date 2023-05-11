@@ -5,10 +5,15 @@
 	"publishConfig": {
 		"directory": "dist"
 	},
-    "scripts": {
-        "build": "sass src/index.scss dist/crabnebula.css"
-    },
+	"scripts": {
+		"build:sass": "sass src/index.scss dist/stylesheets/crabnebula.css",
+		"build:images": "mkdir -p dist/images/ && cp images/* dist/images/",
+		"build:html": "cp docs/header.html dist/index.html && showdown makehtml -c ghCodeBlocks=true -i docs/index.md -a -o dist/index.html && cat docs/footer.html >> dist/index.html",
+		"build": "npm run build:sass && npm run build:images && npm run build:html"
+	},
 	"devDependencies": {
-		"sass": "^1.62.1"
+		"prettier": "^2.8.8",
+		"sass": "^1.62.1",
+		"showdown": "^2.1.0"
 	}
 }
