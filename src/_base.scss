@@ -17,7 +17,11 @@ a:active, a:hover {
 	color: styles.$base-link-hover-color;
 }
 
-div.hero {
+ul {
+	line-height: 1.5rem;
+}
+
+div.cn-hero {
 	background-image: styles.$base-hero-image;
 	min-height: styles.$base-hero-min-height;
 	max-height: styles.$base-hero-max-height;
@@ -27,7 +31,7 @@ div.hero {
 	background-size: cover;
 }
 
-div.container {
+div.cn-container {
 	max-width: styles.$base-container-max-width;
 	margin-left: auto;
 	margin-right: auto;
