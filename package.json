@@ -1,0 +1,14 @@
+{
+	"name": "@crabnebula-dev/style-guide",
+	"private": true,
+	"version": "0.0.0",
+	"publishConfig": {
+		"directory": "dist"
+	},
+    "scripts": {
+        "build": "sass src/index.scss dist/crabnebula.css"
+    },
+	"devDependencies": {
+		"sass": "^1.62.1"
+	}
+}
