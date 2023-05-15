@@ -1,2 +1,6 @@
-# prettier doesn't like the closing tags
-docs/footer.html
+# don't worry about linting generated/dependent code
+dist/
+node_modules/
+public/
+
+package-lock.json

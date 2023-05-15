@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<title>CrabNebula Style Guide</title>
-		<link rel="stylesheet" href="stylesheets/crabnebula.css" />
-		<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/tomorrow-night-blue.min.css"> -->
+		<link rel="stylesheet" href="dist/css/crabnebula.css" />
+
+		<!-- for syntax highlighting -->
 		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/shades-of-purple.min.css"
@@ -11,11 +12,14 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
 	</head>
 	<body>
-		<div class="cn-hero">
+		<div class="cn-hero" style="background-image: url(img/hero.png)">
 			<div class="cn-container">
 				<h1 style="text-align: center">CrabNebula Style Guide</h1>
 			</div>
 		</div>
-		<div class="cn-container"></div>
+		<div class="cn-container">{{ block "main" . }} {{ end }}</div>
+		<script>
+			hljs.highlightAll();
+		</script>
 	</body>
 </html>

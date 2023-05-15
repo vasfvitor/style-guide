@@ -1,0 +1,27 @@
+languageCode: "en"
+title: "CrabNebula Style Guide"
+baseURL: ""
+
+metaDataFormat: "yaml"
+disableKinds: ["404", "taxonomy", "term", "RSS"]
+publishDir: public
+
+module:
+  mounts:
+    # override defaults to keep a clean root
+    - source: site/assets
+      target: assets
+    - source: site/content
+      target: content
+    - source: site/data
+      target: data
+    - source: site/layouts
+      target: layouts
+    - source: site/static
+      target: static
+    - source: site/resources
+      target: resources
+
+    # project additional mounts, such as our css package
+    - source: dist
+      target: static/dist

@@ -1,3 +1,8 @@
+---
+title: "CrabNebula Style Guide"
+description: ""
+---
+
 - [Typography](#typography)
   - [Headings](#headings)
   - [Inline text elements](#inline-text-elements)
