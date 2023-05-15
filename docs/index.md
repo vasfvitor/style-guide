@@ -1,21 +1,21 @@
 - [Typography](#typography)
-    - [Headings](#headings)
-	- [Inline text elements](#inline-text-elements)
-	- [Lists](#lists)
-	- [Tables](#tables)
+  - [Headings](#headings)
+  - [Inline text elements](#inline-text-elements)
+  - [Lists](#lists)
+  - [Tables](#tables)
 - [Components](#components)
-	- [Badge](#badge)
-	- [Breadcrumb](#breadcrumb)
-	- [Buttons](#buttons)
+  - [Badge](#badge)
+  - [Breadcrumb](#breadcrumb)
+  - [Buttons](#buttons)
     - [Card](#card)
-	- [Dropdowns](#dropdowns)
-	- [List group](#list-group)
-	- [Modal](#modal)
-	- [Navbar](#navbar)
-	- [Navs and tabs](#navs-and-tabs)
-	- [Pagination](#pagination)
-	- [Progress](#progress)
-	- [Toasts](#toasts)
+  - [Dropdowns](#dropdowns)
+  - [List group](#list-group)
+  - [Modal](#modal)
+  - [Navbar](#navbar)
+  - [Navs and tabs](#navs-and-tabs)
+  - [Pagination](#pagination)
+  - [Progress](#progress)
+  - [Toasts](#toasts)
 
 # Typography
 
@@ -71,6 +71,8 @@
 ```html
 <div class="cn-card">
 	<h3>Card Title</h3>
-	<p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+	<p>
+		Some quick example text to build on the card title and make up the bulk of the card's content.
+	</p>
 </div>
 ```

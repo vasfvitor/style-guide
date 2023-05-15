@@ -1,19 +1,21 @@
-@use 'styles';
+@use "styles";
 
 body {
 	margin: 0;
 	padding: 0;
 
-    background: styles.$base-background;
-    font-family: styles.$base-font-family;
-    color: styles.$base-font-color;
+	background: styles.$base-background;
+	font-family: styles.$base-font-family;
+	color: styles.$base-font-color;
 }
 
-a, a:visited {
+a,
+a:visited {
 	color: styles.$base-link-color;
 }
 
-a:active, a:hover {
+a:active,
+a:hover {
 	color: styles.$base-link-hover-color;
 }
 

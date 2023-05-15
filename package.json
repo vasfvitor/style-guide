@@ -6,6 +6,8 @@
 		"directory": "dist"
 	},
 	"scripts": {
+		"format:check": "prettier --check .",
+		"format": "prettier --write .",
 		"build:sass": "sass src/index.scss dist/stylesheets/crabnebula.css",
 		"build:images": "mkdir -p dist/images/ && cp images/* dist/images/",
 		"build:html": "cp docs/header.html dist/index.html && showdown makehtml -c ghCodeBlocks=true -i docs/index.md -a -o dist/index.html && cat docs/footer.html >> dist/index.html",
