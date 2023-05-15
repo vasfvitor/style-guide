@@ -3,6 +3,7 @@ title: "CrabNebula Style Guide"
 description: ""
 ---
 
+- [Installation](#installation)
 - [Typography](#typography)
   - [Headings](#headings)
   - [Inline text elements](#inline-text-elements)
@@ -12,7 +13,7 @@ description: ""
   - [Badge](#badge)
   - [Breadcrumb](#breadcrumb)
   - [Buttons](#buttons)
-    - [Card](#card)
+	- [Card](#card)
   - [Dropdowns](#dropdowns)
   - [List group](#list-group)
   - [Modal](#modal)
@@ -21,6 +22,18 @@ description: ""
   - [Pagination](#pagination)
   - [Progress](#progress)
   - [Toasts](#toasts)
+
+# Installation
+
+```json
+{
+	// ...
+	"dependencies": {
+		// ...
+		"@crabnebula-dev/style-guide": "git+ssh://git@github.com/crabnebula-dev/style-guide.git#main"
+	}
+}
+```
 
 # Typography
 

@@ -24,6 +24,14 @@ then install using `npm i` or `pnpm i`.
 }
 ```
 
+## Documentation
+
+Until we get this shipped somewhere, you'll need to spin up a local server to access docs.
+
+```shell
+npm run serve:docs
+```
+
 ## Resources
 
 - [Figma](https://www.figma.com/file/fXTbZbLIwxnyQKOZERng3b/CrabNebula-Brand?type=design&node-id=2398-2856&t=K2wj0EDnp0X16c8v-0)

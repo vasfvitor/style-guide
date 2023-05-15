@@ -6,6 +6,13 @@ metaDataFormat: "yaml"
 disableKinds: ["404", "taxonomy", "term", "RSS"]
 publishDir: public
 
+markup:
+  goldmark:
+    renderer:
+      unsafe:           true
+  highlight:
+    noClasses:          false
+
 module:
   mounts:
     # override defaults to keep a clean root
