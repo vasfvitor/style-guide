@@ -1,0 +1,53 @@
+@use "styles";
+
+// background
+
+.cn-bg-pink {
+	background: styles.$pink;
+}
+
+.cn-bg-berry {
+	background: styles.$berry;
+}
+
+.cn-bg-teal {
+	background: styles.$teal;
+}
+
+.cn-bg-deep-dark-blue {
+	background: styles.$deep-dark-blue;
+}
+
+.cn-bg-dark-blue {
+	background: styles.$dark-blue;
+}
+
+.cn-bg-white {
+	background: styles.$white;
+}
+
+// foreground
+
+.cn-fg-pink {
+	color: styles.$pink;
+}
+
+.cn-fg-berry {
+	color: styles.$berry;
+}
+
+.cn-fg-teal {
+	color: styles.$teal;
+}
+
+.cn-fg-deep-dark-blue {
+	color: styles.$deep-dark-blue;
+}
+
+.cn-fg-dark-blue {
+	color: styles.$dark-blue;
+}
+
+.cn-fg-white {
+	color: styles.$white;
+}

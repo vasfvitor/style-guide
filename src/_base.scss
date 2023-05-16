@@ -20,11 +20,14 @@ a:hover {
 }
 
 ul {
-	line-height: 1.5rem;
+	line-height: 2rem;
+}
+
+hr {
+	opacity: 23%;
 }
 
 div.cn-hero {
-	min-height: styles.$base-hero-min-height;
 	max-height: styles.$base-hero-max-height;
 	padding: 100px 0 0;
 	background-position: center;

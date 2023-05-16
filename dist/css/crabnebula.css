@@ -17,11 +17,14 @@ a:hover {
 }
 
 ul {
-  line-height: 1.5rem;
+  line-height: 2rem;
+}
+
+hr {
+  opacity: 23%;
 }
 
 div.cn-hero {
-  min-height: 200px;
   max-height: 293px;
   padding: 100px 0 0;
   background-position: center;
@@ -35,11 +38,65 @@ div.cn-container {
   margin-right: auto;
 }
 
+div.cn-badge {
+  display: inline-block;
+  padding: 12px;
+  border-radius: 24px 0 0 24px;
+}
+
 div.cn-card {
   box-sizing: border-box;
   background: #011b42;
   border-radius: 16px;
   padding: 10px 20px;
+}
+
+.cn-bg-pink {
+  background: #ff00c7;
+}
+
+.cn-bg-berry {
+  background: #bf0095;
+}
+
+.cn-bg-teal {
+  background: #2F90A5;
+}
+
+.cn-bg-deep-dark-blue {
+  background: #001631;
+}
+
+.cn-bg-dark-blue {
+  background: #011b42;
+}
+
+.cn-bg-white {
+  background: #ffffff;
+}
+
+.cn-fg-pink {
+  color: #ff00c7;
+}
+
+.cn-fg-berry {
+  color: #bf0095;
+}
+
+.cn-fg-teal {
+  color: #2F90A5;
+}
+
+.cn-fg-deep-dark-blue {
+  color: #001631;
+}
+
+.cn-fg-dark-blue {
+  color: #011b42;
+}
+
+.cn-fg-white {
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=crabnebula.css.map */

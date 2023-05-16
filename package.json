@@ -11,10 +11,13 @@
 		"build:sass": "sass src/index.scss dist/css/crabnebula.css",
 		"build:docs": "hugo --cleanDestinationDir --printUnusedTemplates",
 		"build": "npm run build:sass && npm run build:docs",
-		"serve:docs": "hugo server --port 3000"
+		"serve:sass": "sass -w src/index.scss dist/css/crabnebula.css",
+		"serve:docs": "hugo server --port 3000",
+		"serve": "npm-run-all --parallel 'serve:*'"
 	},
 	"devDependencies": {
 		"hugo-bin": "^0.102.0",
+		"npm-run-all": "^4.1.5",
 		"prettier": "^2.8.8",
 		"sass": "^1.62.1"
 	}

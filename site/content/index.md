@@ -3,6 +3,8 @@ title: "CrabNebula Style Guide"
 description: ""
 ---
 
+# CrabNebula Style Guide
+
 - [Installation](#installation)
 - [Typography](#typography)
   - [Headings](#headings)
@@ -13,7 +15,7 @@ description: ""
   - [Badge](#badge)
   - [Breadcrumb](#breadcrumb)
   - [Buttons](#buttons)
-	- [Card](#card)
+  - [Card](#card)
   - [Dropdowns](#dropdowns)
   - [List group](#list-group)
   - [Modal](#modal)
@@ -23,7 +25,11 @@ description: ""
   - [Progress](#progress)
   - [Toasts](#toasts)
 
+<br/>
+
 # Installation
+
+<hr/><br/>
 
 ```json
 {
@@ -35,7 +41,11 @@ description: ""
 }
 ```
 
+<br/>
+
 # Typography
+
+<hr/><br/>
 
 ## Headings
 
@@ -77,13 +87,58 @@ description: ""
 <p><em>This line rendered as italicized text.</em></p>
 ```
 
+## Lists
+
+<ul>
+  <li>Use Armelv5 for all 32-bit armel systems</li>
+  <li>Use Armhfv6 for all armhf systems with v6+ architecture</li>
+  <li>Use Arm64 for all v8 64-bit architectures</li>
+</ul>
+
+```html
+<ul>
+  <li>Use Armelv5 for all 32-bit armel systems</li>
+  <li>Use Armhfv6 for all armhf systems with v6+ architecture</li>
+  <li>Use Arm64 for all v8 64-bit architectures</li>
+</ul>
+```
+
+## Tables
+
+<!-- TBD -->
+
+<br/>
+
 # Components
+
+<hr/><br/>
+
+## Badge
+
+<div class="cn-badge cn-bg-pink">Update available</div>
+<div class="cn-badge cn-bg-berry">AppStore</div>
+<div class="cn-badge cn-bg-teal">New Cluster</div>
+
+```html
+<div class="cn-badge cn-bg-pink">Update available</div>
+<div class="cn-badge cn-bg-berry">AppStore</div>
+<div class="cn-badge cn-bg-teal">New Cluster</div>
+```
+
+## Breadcrumb
+
+<!-- TBD -->
+
+## Buttons
+
+<!-- TBD -->
 
 ## Card
 
 <div class="cn-card">
 	<h3>Card Title</h3>
 	<p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+	<hr/>
 </div>
 
 ```html
@@ -92,5 +147,38 @@ description: ""
 	<p>
 		Some quick example text to build on the card title and make up the bulk of the card's content.
 	</p>
+	<hr/>
 </div>
 ```
+
+## Dropdowns
+
+<!-- TBD -->
+
+## List group
+
+<!-- TBD -->
+
+## Modal
+
+<!-- TBD -->
+
+## Navbar
+
+<!-- TBD -->
+
+## Navs and tabs
+
+<!-- TBD -->
+
+## Pagination
+
+<!-- TBD -->
+
+## Progress
+
+<!-- TBD -->
+
+## Toasts
+
+<!-- TBD -->
