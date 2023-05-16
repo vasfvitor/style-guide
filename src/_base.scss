@@ -9,6 +9,10 @@ body {
 	color: styles.$base-font-color;
 }
 
+p {
+	line-height: 1.4rem;
+}
+
 a,
 a:visited {
 	color: styles.$base-link-color;
@@ -17,10 +21,6 @@ a:visited {
 a:active,
 a:hover {
 	color: styles.$base-link-hover-color;
-}
-
-ul {
-	line-height: 2rem;
 }
 
 hr {
@@ -39,4 +39,16 @@ div.cn-container {
 	max-width: styles.$base-container-max-width;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
 }

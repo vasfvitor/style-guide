@@ -26,10 +26,11 @@ then install using `npm i` or `pnpm i`.
 
 ## Documentation
 
-Until we get this shipped somewhere, you'll need to spin up a local server to access docs.
+Until we get this shipped somewhere, you'll need to spin up a local server to access docs. This will also perform live
+recompilation of scss files and automatic rebuilding of the docs.
 
 ```shell
-npm run serve:docs
+npm run serve
 ```
 
 ## Resources

@@ -10,8 +10,16 @@
 	background: styles.$berry;
 }
 
+.cn-bg-light-blue {
+	background: styles.$light-blue;
+}
+
 .cn-bg-teal {
 	background: styles.$teal;
+}
+
+.cn-bg-green {
+	background: styles.$green;
 }
 
 .cn-bg-deep-dark-blue {
@@ -20,6 +28,10 @@
 
 .cn-bg-dark-blue {
 	background: styles.$dark-blue;
+}
+
+.cn-bg-slate {
+	background: styles.$slate;
 }
 
 .cn-bg-white {
@@ -36,8 +48,16 @@
 	color: styles.$berry;
 }
 
+.cn-fg-light-blue {
+	color: styles.$light-blue;
+}
+
 .cn-fg-teal {
 	color: styles.$teal;
+}
+
+.cn-fg-green {
+	color: styles.$green;
 }
 
 .cn-fg-deep-dark-blue {
@@ -46,6 +66,10 @@
 
 .cn-fg-dark-blue {
 	color: styles.$dark-blue;
+}
+
+.cn-fg-slate {
+	color: styles.$slate;
 }
 
 .cn-fg-white {

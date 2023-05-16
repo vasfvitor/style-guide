@@ -9,9 +9,9 @@ publishDir: public
 markup:
   goldmark:
     renderer:
-      unsafe:           true
+      unsafe: true
   highlight:
-    noClasses:          false
+    noClasses: false
 
 module:
   mounts:

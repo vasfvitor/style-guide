@@ -6,6 +6,10 @@ body {
   color: #ffffff;
 }
 
+p {
+  line-height: 1.4rem;
+}
+
 a,
 a:visited {
   color: #bf0095;
@@ -14,10 +18,6 @@ a:visited {
 a:active,
 a:hover {
   color: #ff00c7;
-}
-
-ul {
-  line-height: 2rem;
 }
 
 hr {
@@ -38,17 +38,75 @@ div.cn-container {
   margin-right: auto;
 }
 
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
 div.cn-badge {
   display: inline-block;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+div.cn-badge-group {
+  text-align: right;
+}
+div.cn-badge-group div.cn-badge {
   padding: 12px;
   border-radius: 24px 0 0 24px;
+}
+
+button,
+a.cn-btn {
+  /* Normalize anchors nad buttons */
+  display: table-cell;
+  cursor: pointer;
+  outline: 0;
+  margin: 0;
+  padding: 12px 24px;
+  border: 0;
+  border-radius: 8px;
+  color: inherit;
+  text-decoration: none;
+  font: inherit;
+  text-align: center;
+  text-transform: none;
+  align-items: unset;
+  justify-content: center;
+  vertical-align: middle;
+  line-height: 1rem;
+  writing-mode: horizontal-tb;
+  word-spacing: 0;
+  font-stretch: 100%;
+  text-rendering: auto;
+  letter-spacing: normal;
+  box-sizing: border-box;
+  appearance: auto;
+}
+
+button,
+.cn-btn {
+  background: rgba(239, 241, 255, 0.1);
+}
+
+.cn-btn-link {
+  background: transparent;
 }
 
 div.cn-card {
   box-sizing: border-box;
   background: #011b42;
   border-radius: 16px;
-  padding: 10px 20px;
+  padding: 10px 20px 20px;
+  border: 1px solid rgba(239, 241, 255, 0.1);
 }
 
 .cn-bg-pink {
@@ -59,8 +117,16 @@ div.cn-card {
   background: #bf0095;
 }
 
+.cn-bg-light-blue {
+  background: #6cf3ff;
+}
+
 .cn-bg-teal {
-  background: #2F90A5;
+  background: #2f90a5;
+}
+
+.cn-bg-green {
+  background: #3ae100;
 }
 
 .cn-bg-deep-dark-blue {
@@ -69,6 +135,10 @@ div.cn-card {
 
 .cn-bg-dark-blue {
   background: #011b42;
+}
+
+.cn-bg-slate {
+  background: rgba(239, 241, 255, 0.1);
 }
 
 .cn-bg-white {
@@ -83,8 +153,16 @@ div.cn-card {
   color: #bf0095;
 }
 
+.cn-fg-light-blue {
+  color: #6cf3ff;
+}
+
 .cn-fg-teal {
-  color: #2F90A5;
+  color: #2f90a5;
+}
+
+.cn-fg-green {
+  color: #3ae100;
 }
 
 .cn-fg-deep-dark-blue {
@@ -95,8 +173,17 @@ div.cn-card {
   color: #011b42;
 }
 
+.cn-fg-slate {
+  color: rgba(239, 241, 255, 0.1);
+}
+
 .cn-fg-white {
   color: #ffffff;
+}
+
+ul,
+ol {
+  line-height: 1.8rem;
 }
 
 /*# sourceMappingURL=crabnebula.css.map */

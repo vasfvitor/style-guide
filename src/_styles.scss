@@ -1,9 +1,11 @@
 $pink: #ff00c7;
 $berry: #bf0095;
-$teal: #2F90A5;
-$green: #3AE100;
+$light-blue: #6cf3ff;
+$teal: #2f90a5;
+$green: #3ae100;
 $deep-dark-blue: #001631;
 $dark-blue: #011b42;
+$slate: rgba(239, 241, 255, 0.1);
 $white: #ffffff;
 
 // base
@@ -20,3 +22,4 @@ $base-container-max-width: 648px;
 
 // cards
 $card-background: $dark-blue;
+$card-border-color: $slate;

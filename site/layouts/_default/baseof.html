@@ -9,13 +9,42 @@
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/shades-of-purple.min.css"
 		/>
+		<style>
+			.docs-example {
+				border: 1px solid rgba(239, 241, 255, 0.1);
+				border-radius: 16px 16px 0 0;
+				padding: 28px;
+				margin: 20px 0 0;
+			}
+
+			div.highlight pre.chroma {
+				margin: 0;
+			}
+
+			div.highlight pre.chroma code {
+				overflow-x: hidden;
+			}
+		</style>
+
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
 	</head>
 	<body>
 		<div class="cn-hero" style="background-image: url(img/hero.png)"></div>
 		<div class="cn-container">{{ block "main" . }} {{ end }}</div>
+		<br /><br />
+		<br /><br />
+		<div class="text-center">&copy;2023 CrabNebula Ltd.</div>
+		<br /><br />
 		<script>
 			hljs.highlightAll();
+
+			document.querySelectorAll("code").forEach(code => {
+				code.style = "cursor:copy";
+
+				code.addEventListener("click", () => {
+					navigator.clipboard.writeText(code.textContent);
+				});
+			});
 		</script>
 	</body>
 </html>
