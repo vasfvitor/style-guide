@@ -6,11 +6,20 @@ div.cn-badge {
 	border-radius: 4px;
 }
 
-div.cn-badge-group {
+div.cn-badge-group, div.cn-badge-group-right {
 	text-align: right;
 
 	div.cn-badge {
 		padding: 12px;
 		border-radius: 24px 0 0 24px;
+	}
+}
+
+div.cn-badge-group-left {
+	text-align: left;
+
+	div.cn-badge {
+		padding: 12px;
+		border-radius: 0 24px 24px 0;
 	}
 }

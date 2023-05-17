@@ -247,7 +247,7 @@ provide relevant and meaningful information without overwhelming or cluttering t
 ### Badge Group
 
 <div class="docs-example">
-	<div class="cn-badge-group">
+	<div class="cn-badge-group-left">
 		<div><div class="cn-badge cn-bg-pink">Update available</div></div>
 		<div><div class="cn-badge cn-bg-berry">AppStore</div></div>
 		<div><div class="cn-badge cn-bg-teal">New Cluster</div></div>
@@ -255,7 +255,23 @@ provide relevant and meaningful information without overwhelming or cluttering t
 </div>
 
 ```html
-<div class="cn-badge-group">
+<div class="cn-badge-group-left">
+	<div><div class="cn-badge cn-bg-pink">Update available</div></div>
+	<div><div class="cn-badge cn-bg-berry">AppStore</div></div>
+	<div><div class="cn-badge cn-bg-teal">New Cluster</div></div>
+</div>
+```
+
+<div class="docs-example">
+	<div class="cn-badge-group-right">
+		<div><div class="cn-badge cn-bg-pink">Update available</div></div>
+		<div><div class="cn-badge cn-bg-berry">AppStore</div></div>
+		<div><div class="cn-badge cn-bg-teal">New Cluster</div></div>
+	</div>
+</div>
+
+```html
+<div class="cn-badge-group-right">
 	<div><div class="cn-badge cn-bg-pink">Update available</div></div>
 	<div><div class="cn-badge cn-bg-berry">AppStore</div></div>
 	<div><div class="cn-badge cn-bg-teal">New Cluster</div></div>
