@@ -1,16 +1,18 @@
 {
 	"name": "@crabnebula-dev/style-guide",
-	"private": true,
 	"version": "0.0.0",
+	"license": "AGPL-3.0-only",
 	"publishConfig": {
 		"directory": "dist"
 	},
 	"scripts": {
+		"license:check": "addlicense -f legal/header.tmpl -check dist/css/* src/* site/*",
+		"license": "addlicense -f legal/header.tmpl dist/css/* src/* site/*",
 		"format:check": "prettier --check .",
 		"format": "prettier --write .",
 		"build:sass": "sass src/index.scss dist/css/crabnebula.css && cleancss -o dist/css/crabnebula.min.css dist/css/crabnebula.css",
 		"build:docs": "hugo --cleanDestinationDir --printUnusedTemplates",
-		"build": "npm run build:sass && npm run build:docs",
+		"build": "npm-run-all 'build:*'",
 		"serve:sass": "sass -w src/index.scss dist/css/crabnebula.css",
 		"serve:docs": "hugo server --port 3000",
 		"serve": "npm-run-all --parallel 'serve:*'"
