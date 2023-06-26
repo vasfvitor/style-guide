@@ -1,87 +1,75 @@
 /**
- * Copyright (C) 2023 CrabNebula Ltd.
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU Affero General Public License as published
- * by the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU Affero General Public License for more details.
- *
- * You should have received a copy of the GNU Affero General Public License
- * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ * Copyright 2023 CrabNebula Ltd.
+ * SPDX-License-Identifier: AGPL-3.0-only
  */
 
 @font-face {
-	font-family: 'Rubik';
+	font-family: "Rubik";
 	font-style: normal;
-	src: url('/dist/fonts/RubikVariable.ttf') format('woff2 supports variations'),
-		url('/dist/fonts/RubikVariable.ttf') format('woff2-variations');
+	src: url("/dist/fonts/RubikVariable.ttf") format("woff2 supports variations"),
+		url("/dist/fonts/RubikVariable.ttf") format("woff2-variations");
 	font-weight: 300 900;
 	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F,
 		U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-	font-display: swap
+	font-display: swap;
 }
 
 @font-face {
-	font-family: 'Rubik';
+	font-family: "Rubik";
 	font-style: italic;
-	src: url('/dist/fonts/RubikVariable_Italic.ttf') format('woff2 supports variations'),
-		url('/dist/fonts/RubikVariable_Italic.ttf') format('woff2-variations');
+	src: url("/dist/fonts/RubikVariable_Italic.ttf") format("woff2 supports variations"),
+		url("/dist/fonts/RubikVariable_Italic.ttf") format("woff2-variations");
 	font-weight: 300 900;
 	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F,
 		U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-	font-display: swap
+	font-display: swap;
 }
 
 @font-face {
-	font-family: 'Inter';
+	font-family: "Inter";
 	font-style: normal;
-	src: url('/dist/fonts/InterVariable.ttf') format('woff2 supports variations'),
-		url('/dist/fonts/InterVariable.ttf') format('woff2-variations');
+	src: url("/dist/fonts/InterVariable.ttf") format("woff2 supports variations"),
+		url("/dist/fonts/InterVariable.ttf") format("woff2-variations");
 	font-weight: 100 900;
-	font-display: swap
+	font-display: swap;
 }
 
 @font-face {
-	font-family: 'Euclid Circular B';
+	font-family: "Euclid Circular B";
 	font-style: normal;
-	src: url('/dist/fonts/EuclidCircularB-Regular.woff') format('woff');
+	src: url("/dist/fonts/EuclidCircularB-Regular.woff") format("woff");
 	font-weight: 400;
-	font-display: swap
+	font-display: swap;
 }
 
 @font-face {
-	font-family: 'Euclid Circular B';
+	font-family: "Euclid Circular B";
 	font-style: normal;
-	src: url('/dist/fonts/EuclidCircularB-Bold.woff') format('woff');
+	src: url("/dist/fonts/EuclidCircularB-Bold.woff") format("woff");
 	font-weight: 700;
-	font-display: swap
+	font-display: swap;
 }
 
 @font-face {
-	font-family: 'Euclid Circular B';
+	font-family: "Euclid Circular B";
 	font-style: normal;
-	src: url('/dist/fonts/EuclidCircularB-Light.woff') format('woff');
+	src: url("/dist/fonts/EuclidCircularB-Light.woff") format("woff");
 	font-weight: 300;
-	font-display: swap
+	font-display: swap;
 }
 
 @font-face {
-	font-family: 'Euclid Circular B';
+	font-family: "Euclid Circular B";
 	font-style: normal;
-	src: url('/dist/fonts/EuclidCircularB-Medium.woff') format('woff');
+	src: url("/dist/fonts/EuclidCircularB-Medium.woff") format("woff");
 	font-weight: 500;
-	font-display: swap
+	font-display: swap;
 }
 
 @font-face {
-	font-family: 'Euclid Circular B';
+	font-family: "Euclid Circular B";
 	font-style: normal;
-	src: url('/dist/fonts/EuclidCircularB-Semibold.woff') format('woff');
+	src: url("/dist/fonts/EuclidCircularB-Semibold.woff") format("woff");
 	font-weight: 600;
-	font-display: swap
+	font-display: swap;
 }

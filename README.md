@@ -19,7 +19,7 @@ then install using `npm i` or `pnpm i`.
 	// ...
 	"dependencies": {
 		// ...
-		"@crabnebula-dev/style-guide": "http://github.com/crabnebula-dev/style-guide.git"
+		"@crabnebula-dev/style-guide": "http://github.com/crabnebula-dev/style-guide.git#main"
 	}
 }
 ```

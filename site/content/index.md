@@ -37,7 +37,7 @@ description: ""
 	// ...
 	"dependencies": {
 		// ...
-		"@crabnebula-dev/style-guide": "git+ssh://git@github.com/crabnebula-dev/style-guide.git#main"
+		"@crabnebula-dev/style-guide": "https://github.com/crabnebula-dev/style-guide.git#main"
 	}
 }
 ```

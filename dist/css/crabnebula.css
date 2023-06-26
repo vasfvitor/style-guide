@@ -1,18 +1,6 @@
 /**
- * Copyright (C) 2023 CrabNebula Ltd.
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU Affero General Public License as published
- * by the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU Affero General Public License for more details.
- *
- * You should have received a copy of the GNU Affero General Public License
- * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ * Copyright 2023 CrabNebula Ltd.
+ * SPDX-License-Identifier: AGPL-3.0-only
  */
 @font-face {
   font-family: "Rubik";
@@ -73,36 +61,12 @@
   font-display: swap;
 }
 /**
- * Copyright (C) 2023 CrabNebula Ltd.
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU Affero General Public License as published
- * by the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU Affero General Public License for more details.
- *
- * You should have received a copy of the GNU Affero General Public License
- * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ * Copyright 2023 CrabNebula Ltd.
+ * SPDX-License-Identifier: AGPL-3.0-only
  */
 /**
- * Copyright (C) 2023 CrabNebula Ltd.
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU Affero General Public License as published
- * by the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU Affero General Public License for more details.
- *
- * You should have received a copy of the GNU Affero General Public License
- * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ * Copyright 2023 CrabNebula Ltd.
+ * SPDX-License-Identifier: AGPL-3.0-only
  */
 body {
   margin: 0;
@@ -157,20 +121,8 @@ div.cn-container {
 }
 
 /**
- * Copyright (C) 2023 CrabNebula Ltd.
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU Affero General Public License as published
- * by the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU Affero General Public License for more details.
- *
- * You should have received a copy of the GNU Affero General Public License
- * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ * Copyright 2023 CrabNebula Ltd.
+ * SPDX-License-Identifier: AGPL-3.0-only
  */
 div.cn-badge {
   display: inline-block;
@@ -178,10 +130,12 @@ div.cn-badge {
   border-radius: 4px;
 }
 
-div.cn-badge-group, div.cn-badge-group-right {
+div.cn-badge-group,
+div.cn-badge-group-right {
   text-align: right;
 }
-div.cn-badge-group div.cn-badge, div.cn-badge-group-right div.cn-badge {
+div.cn-badge-group div.cn-badge,
+div.cn-badge-group-right div.cn-badge {
   padding: 12px;
   border-radius: 24px 0 0 24px;
 }
@@ -195,20 +149,8 @@ div.cn-badge-group-left div.cn-badge {
 }
 
 /**
- * Copyright (C) 2023 CrabNebula Ltd.
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU Affero General Public License as published
- * by the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU Affero General Public License for more details.
- *
- * You should have received a copy of the GNU Affero General Public License
- * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ * Copyright 2023 CrabNebula Ltd.
+ * SPDX-License-Identifier: AGPL-3.0-only
  */
 button,
 a.cn-btn {
@@ -248,20 +190,8 @@ button,
 }
 
 /**
- * Copyright (C) 2023 CrabNebula Ltd.
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU Affero General Public License as published
- * by the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU Affero General Public License for more details.
- *
- * You should have received a copy of the GNU Affero General Public License
- * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ * Copyright 2023 CrabNebula Ltd.
+ * SPDX-License-Identifier: AGPL-3.0-only
  */
 div.cn-card {
   box-sizing: border-box;
@@ -272,20 +202,8 @@ div.cn-card {
 }
 
 /**
- * Copyright (C) 2023 CrabNebula Ltd.
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU Affero General Public License as published
- * by the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU Affero General Public License for more details.
- *
- * You should have received a copy of the GNU Affero General Public License
- * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ * Copyright 2023 CrabNebula Ltd.
+ * SPDX-License-Identifier: AGPL-3.0-only
  */
 .cn-bg-pink {
   background: #ff00c7;
@@ -360,20 +278,8 @@ div.cn-card {
 }
 
 /**
- * Copyright (C) 2023 CrabNebula Ltd.
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU Affero General Public License as published
- * by the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU Affero General Public License for more details.
- *
- * You should have received a copy of the GNU Affero General Public License
- * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ * Copyright 2023 CrabNebula Ltd.
+ * SPDX-License-Identifier: AGPL-3.0-only
  */
 ul,
 ol {
@@ -381,20 +287,8 @@ ol {
 }
 
 /**
- * Copyright (C) 2023 CrabNebula Ltd.
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU Affero General Public License as published
- * by the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU Affero General Public License for more details.
- *
- * You should have received a copy of the GNU Affero General Public License
- * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ * Copyright 2023 CrabNebula Ltd.
+ * SPDX-License-Identifier: AGPL-3.0-only
  */
 
 /*# sourceMappingURL=crabnebula.css.map */
