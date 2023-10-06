@@ -59,12 +59,7 @@ jobs:
             --config ../config.yml \
             --gc \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"    
-      - name: Fix permissions
-        run: |
-          chmod -c -R +rX "public/" | while read line; do
-            echo "::warning title=Invalid file permissions automatically fixed::$line"
-          done      
+            --baseURL "${{ steps.pages.outputs.base_url }}/"          
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
