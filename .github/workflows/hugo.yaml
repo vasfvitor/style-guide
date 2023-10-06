@@ -56,7 +56,7 @@ jobs:
         run: |
           hugo \
             --source site
-            --config ../config.yml
+            --config ../config.yml 
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"          
