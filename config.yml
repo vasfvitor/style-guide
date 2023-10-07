@@ -32,3 +32,11 @@ module:
     # project additional mounts, such as our css package
     - source: dist
       target: static/dist
+
+    # to properly load static assets in GitHub Pages
+    - source: ../dist
+      target: static/dist
+    - source: ../site/static
+      target: static
+
+
